@@ -1,0 +1,147 @@
+.hover-effects
+{
+   position: relative;
+   text-decoration: none;
+   /* background-color: #fff; */
+   padding: 5px;
+   margin-bottom:5px;
+}
+a
+{
+    text-decoration: none;
+}
+.menu-color:hover
+{
+    color: #F97918!important;
+    color: red;
+    transition: 0.3s;
+}
+.hover-effects::after
+{
+    content: "";
+    position: absolute;
+    /* background-color: #fff; */
+    height: 2px;
+    width: 0;
+    left: 0;
+    padding: 0.5px;
+    bottom: 0px;
+    transition: 0.8s;
+    color: red;
+}
+.hover-effects:hover::after
+{
+    width: 100%;
+    color: #ff0505 !important;
+    background-color: #f77904;
+    transition: 0.8s;
+
+}
+#home1{
+    color: black;
+}
+#home1:hover{
+    color: #f77904;
+}
+/* .hvr-effect{
+    color: black;
+} */
+/* .hvr-effect:hover{
+    color: #f77904;
+} */
+#css{
+    color: black;
+}
+#css:hover{
+    color: red;
+}
+#offcanvasNavbarDropdown{
+    color: black;
+}
+.Element{
+    border-radius: 10px;
+    border-color: aqua;
+    border-width: 1.5px;
+    padding: 10px;
+}
+#wedding{
+    font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: initial;
+  
+}
+.size_width{
+    width: 250px!important;
+
+}
+#img{
+   width: 1320px;
+   height: 500px;
+}
+.overlap{
+    position: absolute;
+    width: 100%;
+    top: 55%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+   
+}
+.plan{
+    position: absolute;
+    width: 100%;
+    top: 65%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 4px rgb(47, 0, 255);
+    font-size: 50px;
+}
+.plan:hover{
+    color: rgb(245, 248, 77);
+}
+.love{
+    position: absolute;
+    width: 100%;
+    top: 79%;
+    text-align: center;
+    color: rgb(4, 253, 45);
+    font-weight: bold;
+    font-size: 30px;
+}
+#story{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pic{
+    text-align: center;
+   
+}
+#pic{
+    margin-left: 35%;
+    
+}
+.pic1{
+    font-weight: bold;
+    color:rgb(20, 220, 30);
+}
+#features{
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+    
+
+#beauty{
+    border-top-left-radius: 40px;
+    border-bottom-Right-radius: 40px;
+   
+
+}
+.home2{
+    color: black;
+    
+}
+.home2:hover{
+    color: #f77904;
+}
